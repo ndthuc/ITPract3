@@ -9,7 +9,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { LoginComponent } from './components/login/login.component';
-import { RegisterComponent } from './components/register/register.component'
+import { RegisterComponent } from './components/register/register.component';
+import { DevicesComponent } from './components/devices/devices.component';
+import { NotificationsComponent } from './components/notifications/notifications.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { RegisterComponent } from './components/register/register.component'
     ContentComponent,
     CalendarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DevicesComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,
